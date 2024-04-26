@@ -1,0 +1,105 @@
+/* *VARIABLES */
+:root {
+    --font-color: #fff;
+  }
+
+/* *FORMATEAR PÁGINA*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* *INICIAR CON ESTILOS DESDE MOBILE*/  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: #2A2D56;
+    color: var(--font-color);
+  }
+
+h3 {
+  text-align: center;
+  color: var(--font-color);
+  font-size: 18px;
+
+}
+.contenedorIconos { 
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.iconoUsuario{
+  width: 150px;
+  height: auto;
+}
+
+/* DUEÑO*/
+
+.Contenedor-formulario-Dueño {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Contenido-formulario-Dueño input, .Contenido-formulario-Dueño label{
+  display: block;
+  margin:auto;
+}
+
+.Contenido-formulario-Dueño input::placeholder {
+  background-color: #2A2D56;
+  text-align: center;
+  border:1px solid #fff;
+  padding: 20px;
+  
+}
+
+/* MASCOTA*/
+.Contenedor-Formulario-Mascota {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Contenido-formulario-Mascota label,
+.Contenido-formulario-Mascota input,
+.Contenido-formulario-Mascota select {
+    display: block;
+}
+
+.Contenido-formulario-Mascota input::placeholder {
+  background-color: #2A2D56;
+  text-align: center;
+  border:1px solid #fff;
+  padding: 20px;
+  
+}
+
+
+footer{
+  position: fixed;
+  width: 100%;
+  background-color: #F2D0E0;
+  color: black;
+  padding: 20px 0;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  bottom: 0;
+}
+
+.fotoDown {
+  width: 100vw;
+  height: auto;
+}
+
+.textoCopy{
+  text-align: center;
+  font-size: 80%;
+}
+
+
+

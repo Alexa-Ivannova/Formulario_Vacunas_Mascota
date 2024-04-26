@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Mascotas</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <img class="ImagenTransparencia" src=""">
+
+    <nav class="contenedorIconos">
+        <img class="iconoUsuario" src="https://cdn.icon-icons.com/icons2/1948/PNG/512/free-30-instagram-stories-icons23_122570.png" alt="Icono usuario">
+    </nav>
+
+    <h3>INFO. MASCOTA</h3>
+    <section class="Contenedor-Formulario-Mascota">
+        <section class="Contenido-formulario-Mascota">
+            <form>
+                <label for="nombreMascota">Nombre:</label>
+                <input type="text" name="nombreMascota" id="nombreMascota" placeholder="Ingrese nombre mascota." minlength="1" required>
+                <label for="tipoMascota">Tipo:</label>
+                <select name="tipoMascota" id="tipoMascota">
+                    <option value="perro">Perro</option>
+                    <option value="gato">Gato</option>
+                </select>
+                <label for="edadMascota">Edad Mascota:</label>
+                <input type="number" name="edadMascota" id="edadMascota" placeholder="Edad mascota.." required>
+                <label for="ultimaVacuna">Fecha de última vacuna:</label>
+                <input type="date" name="ultimaVacuna" id="ultimaVacuna" required>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </section>
+
+<footer>
+    <nav class="contenedorFotoDown">
+        <img class="fotoDown" src="https://static.wixstatic.com/media/d33ee0_31664be5fc3541a8bb6405ff1f3e28c8~mv2.png/v1/fill/w_560,h_190,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/perritos%20asomados%202.png">
+    </nav>
+
+    <p class="textoCopy">&copy; 2024 Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
